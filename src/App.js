@@ -16,12 +16,12 @@ const App = () => {
         spacing={0}
         alignItems="center"
         justify="center"
-        styles={{ height: "100vh" }}
+        style={{ height: "100vh" }}
       >
         <Grid item xs={12} sm={4}>
           <Details title="Income" />
         </Grid>
-        <Grid item xs={12} sm={4}>
+        <Grid item xs={12} sm={3}>
           <Main />
         </Grid>
         <Grid item xs={12} sm={4}>
