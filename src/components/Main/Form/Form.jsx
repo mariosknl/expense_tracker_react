@@ -69,7 +69,9 @@ const Form = () => {
           <InputLabel>Category</InputLabel>
           <Select
             value={formData.type}
-            onChange={(e) => setFormData({ ...formData, type: e.target.value })}
+            onChange={(e) =>
+              setFormData({ ...formData, category: e.target.value })
+            }
           >
             {selectedCategories.map((c) => (
               <MenuItem key={c.type} value={c.type}>
