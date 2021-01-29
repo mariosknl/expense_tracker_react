@@ -1800,16 +1800,6 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@speechly/browser-client@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@speechly/browser-client/-/browser-client-1.0.2.tgz#2765aa0944d0f02d9c0bf0fb8abec74a533912e9"
-  integrity sha512-Lx+ry+1gJMdKtxpd0lg6UI02oyPA8YU8a1iCUTwmrKJhwhHt+xIOBsrs5vwKgOjP8HL8QHjsv5bS+aMphG90Cg==
-  dependencies:
-    async-retry "^1.3.1"
-    base-64 "^0.1.0"
-    locale-code "^2.0.2"
-    uuid "^8.0.0"
-
 "@speechly/browser-client@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@speechly/browser-client/-/browser-client-1.0.3.tgz#721530811333e7c22306611c01886ca8edbbf643"
@@ -1827,19 +1817,12 @@
   dependencies:
     "@speechly/browser-client" "^1.0.3"
 
-"@speechly/react-client@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@speechly/react-client/-/react-client-0.0.4.tgz#288b23d4cbe1b787d22177ff95fff9ae4590f4fe"
-  integrity sha512-7aMZyDGkLEFXUbDCFBEu3A/zdHc0CAtecEsq1cOg3AWcwzE5KeWYkywxN60FDeHoLUedY7if8Jps6S8aqmvX5A==
+"@speechly/react-ui@1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@speechly/react-ui/-/react-ui-1.2.1.tgz#b9e3b8fd38978070680ef20dfbb1f3d1142988a0"
+  integrity sha512-gC8kK8CADy82pNcw7hssXMXBMtpz6OVx8UM9c/LnDVPDmC/r3cCUgWFBYi6umBwDUWmBTrrI++LMuXIL/7JDOg==
   dependencies:
-    "@speechly/browser-client" "^1.0.2"
-
-"@speechly/react-ui@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@speechly/react-ui/-/react-ui-1.1.0.tgz#3c1e05067645006fe86ef77d10c981089bcd0f0b"
-  integrity sha512-KasiEVM5RL1r8cYrjSLRqBEmvZvr69lDeXqtilfNXRnon6B+O8sEEJuq2LUF2LTZjfumX2gq4Djm+arwz6pvJQ==
-  dependencies:
-    "@speechly/react-client" "^0.0.4"
+    "@speechly/react-client" "0.0.5"
     pubsub-js "^1.9.2"
     react-spring "^8.0.27"
     styled-components "^5.2.1"
