@@ -1810,12 +1810,29 @@
     locale-code "^2.0.2"
     uuid "^8.0.0"
 
+"@speechly/browser-client@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@speechly/browser-client/-/browser-client-1.0.4.tgz#c4c26beebb98416957b8e3e4dae41be8986fe273"
+  integrity sha512-rhxRFw/mOELvhJKknrDsku5BShcxsv7ThGEnG8i+IjQ1zDfChAdbLky69iPFdc4jhzaUgxjkziccYxkCOr+CdQ==
+  dependencies:
+    async-retry "^1.3.1"
+    base-64 "^0.1.0"
+    locale-code "^2.0.2"
+    uuid "^8.0.0"
+
 "@speechly/react-client@0.0.5":
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/@speechly/react-client/-/react-client-0.0.5.tgz#9e126fdcb46ad1c7f11984b4abc9cb1af222585c"
   integrity sha512-idzblJ+mqvPPOn5fCeY6rpBMgy8hRLqU1/0A6E8NSesahNtMnzwXQY0GSuWqNcSuum0Gea1lWX+DE7U9M7VxDw==
   dependencies:
     "@speechly/browser-client" "^1.0.3"
+
+"@speechly/react-client@0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@speechly/react-client/-/react-client-0.0.6.tgz#00950bc79da5f4c67339b29e1cbcd82cb2c5d97e"
+  integrity sha512-rgl3RepeqWKEJlje1DA71ghuz5nFNen8ytFlPx9x+i4mBZn25xq+qgbG+2M6uANVOooMH4w0BiPKv2ahbuU7NQ==
+  dependencies:
+    "@speechly/browser-client" "^1.0.4"
 
 "@speechly/react-ui@1.2.1":
   version "1.2.1"
