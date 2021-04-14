@@ -2494,6 +2494,11 @@
     locale-code "^2.0.2"
     uuid "^8.0.0"
 
+"@speechly/browser-ui@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@speechly/browser-ui/-/browser-ui-1.0.3.tgz#c014110502f17e9771536938417efeef837965a5"
+  integrity sha512-jv2ViXH5jT9Xm1Qf4T6G/Vdw/163GFMX9suBi4BlwQH1BZkI3ZmGQtNu9Pf1CcFppE0LBUMAHlpHEFW+K7qNrg==
+
 "@speechly/react-client@0.0.16":
   version "0.0.16"
   resolved "https://registry.yarnpkg.com/@speechly/react-client/-/react-client-0.0.16.tgz#205edfb93384d0e07d27bafb6bca917486f72dc2"
@@ -2501,11 +2506,12 @@
   dependencies:
     "@speechly/browser-client" "^1.0.11"
 
-"@speechly/react-ui@1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@speechly/react-ui/-/react-ui-1.2.4.tgz#31d39f7e48074004e533b7d15461a3af3168be40"
-  integrity sha512-zM6TRJagDD9cpzx3TRixMEB8mRZzsSkX4ugpqRHHt07HHHSUCrHGbZuIs6eqpBjMq8TW9+DMXsYZeOpF/yhyOg==
+"@speechly/react-ui@1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@speechly/react-ui/-/react-ui-1.2.9.tgz#c3111bc648bb9e1681930c25600b2189f8596447"
+  integrity sha512-DThDqOkBhYgjoM/q+vvcapgMONugZIBnwBTllNbtuUoasqrIAZOBLDd+7kVazh3CEoBtwygzEt5LJysU7vbMsw==
   dependencies:
+    "@speechly/browser-ui" "^1.0.3"
     pubsub-js "^1.9.2"
     react-spring "^8.0.27"
     styled-components "^5.2.1"
