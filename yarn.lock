@@ -2484,17 +2484,17 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@speechly/browser-ui@>=3.13.0":
-  version "3.13.1"
-  resolved "https://registry.yarnpkg.com/@speechly/browser-ui/-/browser-ui-3.13.1.tgz#b44a5ab8284e80b4e71c09199e11cafe4966995e"
-  integrity sha512-q9oio7cHLaqx8Z3mF7hZM6z4xCL0hvJMecq586WpW1Sg0tXUNuJovsSL6OARv09XO8f0zSyaLzDeTV+Rpl86XQ==
+"@speechly/browser-ui@>=4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@speechly/browser-ui/-/browser-ui-4.0.2.tgz#198471e0f0fbcfb70b35047420ea6c40cc685563"
+  integrity sha512-UeDE8F1oKCu8PUsFJP4qBpXMoJemSpk4Dcy9nCucmIhMbsOrahBQ6+IclAF0tj0GmMVekbYGxSQJ7vYV8OXBxw==
 
-"@speechly/react-ui@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@speechly/react-ui/-/react-ui-2.0.1.tgz#9622b13926ca4983512063df579632667fc5f7e8"
-  integrity sha512-KrvwPV6aO22mGkrG8Q3gXX970BC4Q7v8gCSgbHKOxuC3edMIKeHkAz1mNSG7NhsWGmktR+sg2G3NThUFXtWIkg==
+"@speechly/react-ui@2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@speechly/react-ui/-/react-ui-2.1.2.tgz#6ca4084457b23528887f0c1e4096678faaa5adbe"
+  integrity sha512-Xb1U9pGWnVdcAdqyKNUIMcKiG5aR0suCuzOEPxZEGP0n26q2ZVVGp4JL5mrNWvTKB5LWCYysgdX0WRHJHO2bXA==
   dependencies:
-    "@speechly/browser-ui" ">=3.13.0"
+    "@speechly/browser-ui" ">=4.0.2"
     pubsub-js "^1.9.2"
     react-spring "^8.0.27"
     styled-components "^5.2.1"
