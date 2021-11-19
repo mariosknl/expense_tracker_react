@@ -2484,17 +2484,28 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@speechly/browser-ui@>=4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@speechly/browser-ui/-/browser-ui-4.0.2.tgz#198471e0f0fbcfb70b35047420ea6c40cc685563"
-  integrity sha512-UeDE8F1oKCu8PUsFJP4qBpXMoJemSpk4Dcy9nCucmIhMbsOrahBQ6+IclAF0tj0GmMVekbYGxSQJ7vYV8OXBxw==
-
-"@speechly/react-ui@2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@speechly/react-ui/-/react-ui-2.1.2.tgz#6ca4084457b23528887f0c1e4096678faaa5adbe"
-  integrity sha512-Xb1U9pGWnVdcAdqyKNUIMcKiG5aR0suCuzOEPxZEGP0n26q2ZVVGp4JL5mrNWvTKB5LWCYysgdX0WRHJHO2bXA==
+"@speechly/browser-client@>=1.0.19":
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/@speechly/browser-client/-/browser-client-1.0.19.tgz#3c5f2cd57481fddf3618f2a09885b1ae6bedda89"
+  integrity sha512-FGTzCEk2fkFcY9aMT/V4wIoU66xswJQuNgUnbRz7PjRU25hXSlmSpCX8lnRa3jygxibedVD60WastYRznC3ObA==
   dependencies:
-    "@speechly/browser-ui" ">=4.0.2"
+    base-64 "^0.1.0"
+    locale-code "^2.0.2"
+    uuid "^8.0.0"
+
+"@speechly/browser-ui@>=5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@speechly/browser-ui/-/browser-ui-5.0.2.tgz#bb20db984116efeb9516efe6fc3d0ada0727e961"
+  integrity sha512-aBEU06fAyqRGHLrcoDdHQClS3+5bzTnYlRb6bAc4FBRqWPsNQGoo0bmcgCYlW0B2iBamOSiE2IyQl/E3cR1OWw==
+  dependencies:
+    "@speechly/browser-client" ">=1.0.19"
+
+"@speechly/react-ui@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@speechly/react-ui/-/react-ui-2.2.0.tgz#48c60d587a24cf42b7346827a390e1086faf7f4d"
+  integrity sha512-8zD6xVK1o/GYbkLNlKmIFYW2It6mMGkAaqLFnNh8OOhuNUTTLB1Lag8P3ST+z4VqFvYEgYrdv7s/r98zI49PxQ==
+  dependencies:
+    "@speechly/browser-ui" ">=5.0.2"
     pubsub-js "^1.9.2"
     react-spring "^8.0.27"
     styled-components "^5.2.1"
@@ -3781,6 +3792,11 @@ balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
   integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
+
+base-64@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/base-64/-/base-64-0.1.0.tgz#780a99c84e7d600260361511c4877613bf24f6bb"
+  integrity sha1-eAqZyE59YAJgNhURxId2E78k9rs=
 
 base64-js@^1.0.2:
   version "1.3.1"
@@ -7363,6 +7379,25 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
 
+iso-3166-1-alpha-2@~1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/iso-3166-1-alpha-2/-/iso-3166-1-alpha-2-1.0.0.tgz#bc9e0bb94e584df5468a932997a28552e26f97ac"
+  integrity sha1-vJ4LuU5YTfVGipMpl6KFUuJvl6w=
+  dependencies:
+    mout "^0.11.0"
+
+iso-639-1-zh@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/iso-639-1-zh/-/iso-639-1-zh-2.0.4.tgz#61b577d14ee8b0c2c8e73697a3c894fe02dbd541"
+  integrity sha1-YbV30U7osMLI5zaXo8iU/gLb1UE=
+  dependencies:
+    iso-639-1 "^2.0.0"
+
+iso-639-1@^2.0.0:
+  version "2.1.10"
+  resolved "https://registry.yarnpkg.com/iso-639-1/-/iso-639-1-2.1.10.tgz#9be7ae3bcef0402bdc9a1739758ad8cacd83c56b"
+  integrity sha512-89AlNqZGxV1zSzwb5H2mfQF8cJz8+TxhpFtCCO7FmVySuwkuvVG2N2MoyhrXHOpRhz9G6qjciO5DfVwOxV3Xgg==
+
 isobject@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-2.1.0.tgz#f065561096a3f1da2ef46272f815c840d87e0c89"
@@ -8192,6 +8227,14 @@ loader-utils@^1.1.0, loader-utils@^1.2.3, loader-utils@^1.4.0:
     emojis-list "^3.0.0"
     json5 "^1.0.1"
 
+locale-code@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/locale-code/-/locale-code-2.0.2.tgz#660d80c5825d8fe9f3ba4a72de5716833ec7d0ed"
+  integrity sha512-wNcUMwk6Nlc10pnZZXWtKArAOZHhH8p2vohPEIENg7ImwMrib/CwKSvyV4g9Wm7KjylyHzXnEMz4i/W3w57wlw==
+  dependencies:
+    iso-3166-1-alpha-2 "~1.0.0"
+    iso-639-1-zh "^2.0.4"
+
 locate-path@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/locate-path/-/locate-path-2.0.0.tgz#2b568b265eec944c6d9c0de9c3dbbbca0354cd8e"
@@ -8595,6 +8638,11 @@ mkdirp@^1.0.3, mkdirp@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
+
+mout@^0.11.0:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/mout/-/mout-0.11.1.tgz#ba3611df5f0e5b1ffbfd01166b8f02d1f5fa2b99"
+  integrity sha1-ujYR318OWx/7/QEWa48C0fX6K5k=
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -12399,7 +12447,7 @@ uuid@^3.3.2, uuid@^3.4.0:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
-uuid@^8.3.0:
+uuid@^8.0.0, uuid@^8.3.0:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
