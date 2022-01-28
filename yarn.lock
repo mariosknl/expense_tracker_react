@@ -2682,28 +2682,28 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@speechly/browser-client@>=1.0.19":
-  version "1.0.19"
-  resolved "https://registry.yarnpkg.com/@speechly/browser-client/-/browser-client-1.0.19.tgz#3c5f2cd57481fddf3618f2a09885b1ae6bedda89"
-  integrity sha512-FGTzCEk2fkFcY9aMT/V4wIoU66xswJQuNgUnbRz7PjRU25hXSlmSpCX8lnRa3jygxibedVD60WastYRznC3ObA==
+"@speechly/browser-client@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@speechly/browser-client/-/browser-client-1.2.0.tgz#a2344e4b82a536bd425eb94198cc59260fcaab89"
+  integrity sha512-DsDsXFGdGFURZyIFrLF9MMlUcGiWqFh7mbrxmPWjLUuTn42AUas4EXFf6oimiqc+9Ag5d6JU+1mMl+2FAAPqiw==
   dependencies:
     base-64 "^0.1.0"
     locale-code "^2.0.2"
     uuid "^8.0.0"
 
-"@speechly/browser-ui@>=5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@speechly/browser-ui/-/browser-ui-5.0.2.tgz#bb20db984116efeb9516efe6fc3d0ada0727e961"
-  integrity sha512-aBEU06fAyqRGHLrcoDdHQClS3+5bzTnYlRb6bAc4FBRqWPsNQGoo0bmcgCYlW0B2iBamOSiE2IyQl/E3cR1OWw==
+"@speechly/browser-ui@5.0.7":
+  version "5.0.7"
+  resolved "https://registry.yarnpkg.com/@speechly/browser-ui/-/browser-ui-5.0.7.tgz#54ea3570169c0f855c0edb5f0030f9da4f8b41ae"
+  integrity sha512-RTEas9kIzKZs/MMv9bVjdJ/vfdIh7wpVbYEyLu/DSzA/BuTS3yOKTWLC6TwODgTJReKj33as/0HNtFhUF6+6HQ==
   dependencies:
-    "@speechly/browser-client" ">=1.0.19"
+    "@speechly/browser-client" "1.2.0"
 
-"@speechly/react-ui@2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@speechly/react-ui/-/react-ui-2.3.0.tgz#f992c24a339919529283096c68e452f9e03366fb"
-  integrity sha512-6LEDHyi+vwaUJaBcQYjfImzOOtx4Tq//jJwRTacCN6/4+uh8ez4ava0rpvFBFjVt7LBdL4w4+UfrFIzdOuv3ng==
+"@speechly/react-ui@2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@speechly/react-ui/-/react-ui-2.4.0.tgz#3e97b7f07f6d9d9e0fc645d8de202a9e2580d0ce"
+  integrity sha512-falSc2m+H7BhyrlnzkUhnwWBYtUSBXh4WJKzvE8nNhOPQWJO5wo1iWQWznSptIYlWuYnSDPpKykIYRvRKf65Aw==
   dependencies:
-    "@speechly/browser-ui" ">=5.0.2"
+    "@speechly/browser-ui" "5.0.7"
     pubsub-js "^1.9.2"
     react-spring "^8.0.27"
     styled-components ">=5.3.3"
