@@ -2682,27 +2682,27 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@speechly/browser-client@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@speechly/browser-client/-/browser-client-1.4.0.tgz#c69a12b313b77c8cf19c59b7b84be5fd677db2e3"
-  integrity sha512-5t45qGyUeedVnD+80IPC2uv5Bhd37MgCXUjpUDpDYL436RBVef3IlW8+GpWkDolV3RMpyuNrKvH/gtU6oOZHDA==
+"@speechly/browser-client@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@speechly/browser-client/-/browser-client-1.5.0.tgz#42de041d041e2ad57666c4fec69ca984a5d36a0e"
+  integrity sha512-sAhLuwV1YMoMoe3mY8WgT3C4+89FimBj0oAPMAtxl7PdWWWAAvWRqB1n9MzTaDzGN3mvu9tSkqrS+DHWU4jw4A==
   dependencies:
     base-64 "^0.1.0"
     uuid "^8.0.0"
 
-"@speechly/browser-ui@5.3.0":
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/@speechly/browser-ui/-/browser-ui-5.3.0.tgz#4895c9c6f4d1465fcc32a9f38036989e853dcb02"
-  integrity sha512-f6tceDLZtYFXPga0JDMjUZhzoxNARC8ViItQef0ZbP5P6BfNYaeM9bfBlwJfJeBS3T31KiyN1mzdURDTpluWjA==
+"@speechly/browser-ui@5.3.1":
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/@speechly/browser-ui/-/browser-ui-5.3.1.tgz#12f171443c39cf3ab87f3ff14d17e04e62a1ce84"
+  integrity sha512-xq2a8Mdu0T94l+PrIerT68HQEuCQsx2rxLcaBmqEx5BR/9BILEcUCgUJDDMCaxr5VNtI++J0VXVgPD9lb1Xqsg==
   dependencies:
-    "@speechly/browser-client" "1.4.0"
+    "@speechly/browser-client" "1.5.0"
 
-"@speechly/react-ui@2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@speechly/react-ui/-/react-ui-2.6.0.tgz#0accc0cea14869e5a9687bc14e6ab74ba0cd4a26"
-  integrity sha512-NzksbqtPX2bzSNwsB2VtC0D+CHd0IJZBKLfYPH+Rdpeggk7Qi93BFrxbv1kj/tJLOeiZgnfGePuQVCiaEM4SLA==
+"@speechly/react-ui@2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@speechly/react-ui/-/react-ui-2.6.1.tgz#cc3b9f1c068b5dc4192ab3827c3ab4fd7a35b3ca"
+  integrity sha512-xl1KGfEp+Hx1BvK6H5ea5g+0clPh9nitSsYQd4LGsZGFC1zPcMtLymJ3IwzP5fKEyd1+Lc1lS7OyWyGl2MC0tQ==
   dependencies:
-    "@speechly/browser-ui" "5.3.0"
+    "@speechly/browser-ui" "5.3.1"
     pubsub-js "^1.9.2"
     react-spring "^8.0.27"
     styled-components ">=5.3.3"
