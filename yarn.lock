@@ -2837,10 +2837,10 @@
   dependencies:
     "@speechly/browser-client" "^2.6.3"
 
-"@speechly/react-ui@2.7.4":
-  version "2.7.4"
-  resolved "https://registry.yarnpkg.com/@speechly/react-ui/-/react-ui-2.7.4.tgz#83a35062f720073ef4fec4cc41a22f4cae290c6a"
-  integrity sha512-3eOzjY0phILR1wVl9Djr0PoARhNYe6LmLdb2WUhhJz64KanQR9dHPV4gZdAWHNGqO7lb041agQdla2N/3xndxA==
+"@speechly/react-ui@2.7.5":
+  version "2.7.5"
+  resolved "https://registry.yarnpkg.com/@speechly/react-ui/-/react-ui-2.7.5.tgz#0d1a92eb023672b44d374a95cc32de9e8f2a74ed"
+  integrity sha512-PM/FApxQ9hftmI4a35olw6je/6xBvgm0sN8zWtb6q8am1Mj4yUqmsbSYpNGHXFmBrzI16hYp+TA/Ra245a7Iiw==
   dependencies:
     "@speechly/browser-ui" "^6.0.6"
     eslint-plugin-react-hooks "^4.6.0"
