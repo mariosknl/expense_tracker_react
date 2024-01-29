@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@mui/material": "5.15.4",
-    "@mui/icons-material": "5.15.4",
+    "@mui/material": "5.15.6",
+    "@mui/icons-material": "5.15.6",
     "@speechly/react-ui": "2.7.5",
     "@testing-library/jest-dom": "6.2.0",
     "@testing-library/react": "14.1.2",
