@@ -6,7 +6,7 @@
     "@mui/material": "7.3.6",
     "@mui/icons-material": "7.3.6",
     "@speechly/react-ui": "2.7.5",
-    "@testing-library/react": "16.3.0",
+    "@testing-library/react": "16.3.1",
     "@testing-library/jest-dom": "6.9.1",
     "react": "19.2.3",
     "react-chartjs-2": "5.3.1",
